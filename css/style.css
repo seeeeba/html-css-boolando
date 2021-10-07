@@ -25,7 +25,6 @@ img{
 }
 
 .container{
-    background-color: blueviolet;
     height: 900px;
     width: 65%;
     margin: auto;
@@ -41,6 +40,7 @@ img{
     display: inline-block;
 }
 
+
 .heart{
     position: absolute;
     top: 15px;
@@ -53,9 +53,8 @@ img{
 }
 
 .row{
-    background-color: pink;
     text-align: center;
-    margin: 20px 0;
+    margin: 50px 0;
 }
 
 .container-sconti {
@@ -73,7 +72,7 @@ img{
 
 .sostenibilità{
     background-color: green;
-    
+    margin-left: 4px;
 }
 
 .type{
