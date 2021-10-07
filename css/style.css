@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.image-bottom {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-top {
+    display: block;
+}
+
+.product-container:hover .image-bottom{
+    display: inline-block;
+}
+
+.container{
+    background-color: blueviolet;
+    height: 900px;
+    width: 65%;
+    margin: auto;
+}
+
+.product-container{
+    position: relative;
+}
+
+.product{
+    padding: 5px;
+    width: 32%;
+    display: inline-block;
+}
+
+.heart{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.row{
+    background-color: pink;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container-sconti {
+    position: absolute;
+    left: 0;
+    bottom: 35px;
+    color: white;
+    font-size: 15px;
+}
+
+.sconto{
+    background-color: red;
+    
+}
+
+.sostenibilità{
+    background-color: green;
+    
+}
+
+.type{
+    position: absolute;
+    bottom: 35px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    left: 45px;
+}
+
+.description{
+    position: absolute;
+    text-align: left;
+}
+
+.boldclass{
+    font-weight: bold;
+}
+
+.price{
+    font-size: 15px;
+}
+
+.redprice{
+    color: red;
+    font-weight: bold;
+}
+
+.modifiedprice{
+    text-decoration: line-through;
+}
+
